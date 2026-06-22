@@ -81,11 +81,36 @@ export function Navbar({ contentMap, theme, setTheme }) {
             
             {/* Left Side: Logo & Brand */}
             <Link to="/" className="flex items-center gap-2 group shrink-0">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg border border-gold-500/20 bg-bg-card transition-all duration-300 group-hover:border-gold-500/50">
-                {/* Padlock Icon for Secret Union */}
-                <svg className="h-5.5 w-5.5 text-gold-500 transition-transform duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                  <rect x="3" y="11" width="18" height="11" rx="2" ry="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M7 11V7a5 5 0 0110 0v4" strokeLinecap="round" strokeLinejoin="round" />
+              <div className="flex h-10 w-10 items-center justify-center transition-all duration-300">
+                <svg className="h-9 w-9 text-gold-500 transition-transform duration-300 group-hover:scale-110" viewBox="0 0 200 215" fill="none">
+                  {/* Ribbon Tail at the bottom */}
+                  <path d="M 64 165 L 64 205 L 100 185 L 136 205 L 136 165 Z" fill="currentColor" stroke="currentColor" strokeWidth="4.5" strokeLinejoin="miter" />
+                  <path d="M 69 165 L 69 198 L 100 180 L 131 198 L 131 165 Z" fill="#050505" />
+
+                  {/* Outer Serrated Seal (Star) */}
+                  <polygon points="100.00,4.00 111.23,14.74 124.85,7.27 132.91,20.55 148.00,16.86 152.35,31.77 167.88,32.12 168.23,47.65 183.14,52.00 179.45,67.09 192.73,75.15 185.26,88.77 196.00,100.00 185.26,111.23 192.73,124.85 179.45,132.91 183.14,148.00 168.23,152.35 167.88,167.88 152.35,168.23 148.00,183.14 132.91,179.45 124.85,192.73 111.23,185.26 100.00,196.00 88.77,185.26 75.15,192.73 67.09,179.45 52.00,183.14 47.65,168.23 32.12,167.88 31.77,152.35 16.86,148.00 20.55,132.91 7.27,124.85 14.74,111.23 4.00,100.00 14.74,88.77 7.27,75.15 20.55,67.09 16.86,52.00 31.77,47.65 32.12,32.12 47.65,31.77 52.00,16.86 67.09,20.55 75.15,7.27 88.77,14.74" fill="#050505" stroke="currentColor" strokeWidth="4.5" strokeLinejoin="miter" />
+
+                  {/* Inner Seal Circle border */}
+                  <circle cx="100" cy="100" r="77" fill="#111111" stroke="currentColor" strokeWidth="4" />
+                  
+                  {/* Central stylized Logo (Graduation Cap + S + U) */}
+                  <g stroke="currentColor" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" fill="none">
+                    {/* Mortarboard Diamond (Cap Top) */}
+                    <polygon points="100,48 138,58 100,68 62,58" fill="#111111" />
+                    
+                    {/* Cap Band/Bottom */}
+                    <path d="M 80,62.8 C 80,68.5 120,68.5 120,62.8" />
+                    
+                    {/* Tassel string and tip */}
+                    <path d="M 62,58 L 61,72 C 61,76 60,77 60,77" strokeWidth="3" />
+                    <rect x="58" y="77" width="4" height="8" rx="1" fill="currentColor" stroke="none" />
+                    
+                    {/* Stylized S-curve */}
+                    <path d="M 124,84 C 124,78 100,78 92,84 C 84,90 85,98 96,104 C 112,112 118,118 112,126 C 104,134 84,132 84,126" />
+                    
+                    {/* U-shaped loop / Vertical Line at the bottom */}
+                    <path d="M 103,124 L 103,144" />
+                  </g>
                 </svg>
               </div>
               <div className="hidden sm:flex flex-col">
