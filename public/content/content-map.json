@@ -1,0 +1,433 @@
+{
+  "modules": [
+    {
+      "id": "01_INTRO",
+      "number": "01",
+      "title": "INTRO (OBLIGATOIRE)",
+      "description": "Découvre ton Plan d'action et comment utiliser la communauté.",
+      "level": 1,
+      "coverImage": "https://assets.skool.com/f/21b72d30b52a406ab271fe1f8f3a8dbd/a5ebb16cd9244411bef5c6146bc3bcf38ffb20ece4594c79ab76414b121105f3",
+      "totalLessons": 5,
+      "lessons": [
+        {
+          "id": "01-bienvenue-le-plan-d-action",
+          "number": "01",
+          "title": "🥂 Bienvenue - Le Plan d'Action",
+          "type": "video",
+          "hasVideo": true,
+          "contentFile": "/content/01_INTRO/01_Bienvenue_Le_Plan_dAction.md",
+          "videoFile": "https://docs.google.com/uc?export=download&id=1CqpDCR9VabJJz9c2YLuRh5PH0hLCn7kF",
+          "textFile": null,
+          "dir": "01_INTRO"
+        },
+        {
+          "id": "02-comment-debloquer-les-niveaux",
+          "number": "02",
+          "title": "🔓 Comment débloquer les niveaux ?",
+          "type": "text",
+          "hasVideo": false,
+          "contentFile": "/content/01_INTRO/02_Comment_débloquer_les_niveaux.md",
+          "videoFile": null,
+          "textFile": null,
+          "dir": "01_INTRO"
+        },
+        {
+          "id": "03-comment-utiliser-la-communaute",
+          "number": "03",
+          "title": "🌐 Comment utiliser la communauté ?",
+          "type": "text",
+          "hasVideo": false,
+          "contentFile": "/content/01_INTRO/03_Comment_utiliser_la_communauté.md",
+          "videoFile": null,
+          "textFile": null,
+          "dir": "01_INTRO"
+        },
+        {
+          "id": "04-reserve-ton-appel-mentorat",
+          "number": "04",
+          "title": "☎️ Réserve ton appel (Mentorat)",
+          "type": "video",
+          "hasVideo": true,
+          "contentFile": "/content/01_INTRO/04_Réserve_ton_appel_Mentorat.md",
+          "videoFile": "https://docs.google.com/uc?export=download&id=13rDS66wpIOaWCoc370XnIVbUlFDe_lE0",
+          "textFile": null,
+          "dir": "01_INTRO"
+        },
+        {
+          "id": "05-la-psychologie-a-100k",
+          "number": "05",
+          "title": "La Psychologie à 100K",
+          "type": "video",
+          "hasVideo": true,
+          "contentFile": "/content/01_INTRO/05_La_Psychologie_à_100K.md",
+          "videoFile": "https://docs.google.com/uc?export=download&id=1ukwd_DZ_hkKTOhTF0uBuL62xT5rfcPrT",
+          "textFile": null,
+          "dir": "01_INTRO"
+        }
+      ]
+    },
+    {
+      "id": "02_AI_Secret_System",
+      "number": "02",
+      "title": "AI Secret System™",
+      "description": "Tous les outils et les méthodes pour automatiser la création de vidéos virales grâce à l'IA.",
+      "level": 2,
+      "coverImage": "https://assets.skool.com/f/21b72d30b52a406ab271fe1f8f3a8dbd/4f853a5968be44ffb4d16354576919b2dd4ae0180f09434c968c85126044bdee-md.jpg",
+      "totalLessons": 10,
+      "lessons": [
+        {
+          "id": "01-200k-en-12-jours-comment-faire-les-videos",
+          "number": "01",
+          "title": "🚀 200K en 12 JOURS : Comment faire les vidéos ?",
+          "type": "video",
+          "hasVideo": true,
+          "contentFile": "/content/02_AI_Secret_System/01_200K_en_12_JOURS_Comment_faire_les_vidéos.md",
+          "videoFile": "https://docs.google.com/uc?export=download&id=1Hp8W371KnL-ygllaaiOgpMpfzP4sawSE",
+          "textFile": null,
+          "dir": "02_AI_Secret_System"
+        },
+        {
+          "id": "02-tous-les-outils-indispensables-que-j-utilise",
+          "number": "02",
+          "title": "🧰 TOUS les OUTILS INDISPENSABLES que J'UTILISE",
+          "type": "text",
+          "hasVideo": false,
+          "contentFile": "/content/02_AI_Secret_System/02_TOUS_les_OUTILS_INDISPENSABLES_que_JUTILISE.md",
+          "videoFile": null,
+          "textFile": null,
+          "dir": "02_AI_Secret_System"
+        },
+        {
+          "id": "03-creer-un-script-ultra-viral-en-moins-de-2-min",
+          "number": "03",
+          "title": "✍️ Créer un SCRIPT ultra VIRAL en moins de 2 min",
+          "type": "video",
+          "hasVideo": true,
+          "contentFile": "/content/02_AI_Secret_System/03_Créer_un_SCRIPT_ultra_VIRAL_en_moins_de_2_min.md",
+          "videoFile": "https://docs.google.com/uc?export=download&id=1VNtlCv03mBgiyaq6i3gh0AjRVHBeHDh6",
+          "textFile": null,
+          "dir": "02_AI_Secret_System"
+        },
+        {
+          "id": "04-comment-mes-reels-rapportent-30-a-60k-abo",
+          "number": "04",
+          "title": "🚀 Comment mes RÉELS rapportent 30 à 60k abo",
+          "type": "video",
+          "hasVideo": true,
+          "contentFile": "/content/02_AI_Secret_System/04_Comment_mes_RÉELS_rapportent_30_à_60k_abo.md",
+          "videoFile": "https://docs.google.com/uc?export=download&id=1yRYvxT9DnBw1ntkKe-Y9e6bhEOEXus2w",
+          "textFile": null,
+          "dir": "02_AI_Secret_System"
+        },
+        {
+          "id": "05-avoir-des-idees-de-contenu-a-l-infini",
+          "number": "05",
+          "title": "🧠 Avoir des IDÉES de CONTENU à L’INFINI",
+          "type": "video",
+          "hasVideo": true,
+          "contentFile": "/content/02_AI_Secret_System/05_Avoir_des_IDÉES_de_CONTENU_à_LINFINI.md",
+          "videoFile": "https://docs.google.com/uc?export=download&id=12-QMdScwSWHvtwVlI_n5Bb7tolQitWFg",
+          "textFile": null,
+          "dir": "02_AI_Secret_System"
+        },
+        {
+          "id": "06-generer-des-voix-avec-des-emotions",
+          "number": "06",
+          "title": "🗣️ Générer des VOIX avec des ÉMOTIONS",
+          "type": "video",
+          "hasVideo": true,
+          "contentFile": "/content/02_AI_Secret_System/06_Générer_des_VOIX_avec_des_ÉMOTIONS.md",
+          "videoFile": "https://docs.google.com/uc?export=download&id=1h6JLPJjWviSQxAVXk8-9DwiuvcKVeaSR",
+          "textFile": null,
+          "dir": "02_AI_Secret_System"
+        },
+        {
+          "id": "07-l-erreur-que-99-des-gens-font-avec-l-ia",
+          "number": "07",
+          "title": "❌ L’ERREUR que 99% des gens font avec l’IA",
+          "type": "video",
+          "hasVideo": true,
+          "contentFile": "/content/02_AI_Secret_System/07_LERREUR_que_99_des_gens_font_avec_lIA.md",
+          "videoFile": "https://docs.google.com/uc?export=download&id=1jpsvnaNdMNt3R6RaDK8HurMjHnitAz0j",
+          "textFile": null,
+          "dir": "02_AI_Secret_System"
+        },
+        {
+          "id": "08-creer-des-designs-incroyables-en-2-minu",
+          "number": "08",
+          "title": "🧑‍🎨 Créer des DESIGNS INCROYABLES en 2 minu",
+          "type": "video",
+          "hasVideo": true,
+          "contentFile": "/content/02_AI_Secret_System/08_Créer_des_DESIGNS_INCROYABLES_en_2_minu.md",
+          "videoFile": "https://docs.google.com/uc?export=download&id=1MwUxP0f0BZnU5fFIraO86VT-CBUXBSmf",
+          "textFile": null,
+          "dir": "02_AI_Secret_System"
+        },
+        {
+          "id": "09-la-strategie-de-monetisation",
+          "number": "09",
+          "title": "💰 La STRATÉGIE de MONÉTISATION",
+          "type": "video",
+          "hasVideo": true,
+          "contentFile": "/content/02_AI_Secret_System/09_La_STRATÉGIE_de_MONÉTISATION.md",
+          "videoFile": "https://docs.google.com/uc?export=download&id=1puXdeUEBJ2NnVbYdkUiiIuvRANZIqCkZ",
+          "textFile": null,
+          "dir": "02_AI_Secret_System"
+        },
+        {
+          "id": "10-comment-envahir-tous-les-reseaux",
+          "number": "10",
+          "title": "🥇 Comment ENVAHIR tous les RÉSEAUX",
+          "type": "video",
+          "hasVideo": true,
+          "contentFile": "/content/02_AI_Secret_System/10_Comment_ENVAHIR_tous_les_RÉSEAUX.md",
+          "videoFile": "https://docs.google.com/uc?export=download&id=1HTF_5KJMpqvytNbC5DlQ76Tc7qfxPXhw",
+          "textFile": null,
+          "dir": "02_AI_Secret_System"
+        }
+      ]
+    },
+    {
+      "id": "03_Rediffusions_Lives",
+      "number": "03",
+      "title": "Rediffusions Lives",
+      "description": "Toutes les rediffusions des coachings et lives hebdomadaires pour suivre les analyses de comptes.",
+      "level": null,
+      "coverImage": "https://assets.skool.com/f/21b72d30b52a406ab271fe1f8f3a8dbd/a5ebb16cd9244411bef5c6146bc3bcf38ffb20ece4594c79ab76414b121105f3",
+      "totalLessons": 17,
+      "lessons": [
+        {
+          "id": "01-live-reussir-son-lancement",
+          "number": "01",
+          "title": "Live : Réussir son Lancement",
+          "type": "text",
+          "hasVideo": false,
+          "contentFile": "/content/03_Rediffusions_Lives/01_Live_Réussir_son_Lancement.md",
+          "videoFile": null,
+          "textFile": null,
+          "dir": "03_Rediffusions_Lives"
+        },
+        {
+          "id": "02-strategie-d-affiliation-secret-union",
+          "number": "02",
+          "title": "Stratégie d'Affiliation Secret Union",
+          "type": "text",
+          "hasVideo": false,
+          "contentFile": "/content/03_Rediffusions_Lives/02_Stratégie_dAffiliation_Secret_Union.md",
+          "videoFile": null,
+          "textFile": null,
+          "dir": "03_Rediffusions_Lives"
+        },
+        {
+          "id": "03-live-18-aout",
+          "number": "03",
+          "title": "Live 18 Aout",
+          "type": "text",
+          "hasVideo": false,
+          "contentFile": "/content/03_Rediffusions_Lives/03_Live_18_Aout.md",
+          "videoFile": null,
+          "textFile": null,
+          "dir": "03_Rediffusions_Lives"
+        },
+        {
+          "id": "04-live-25-aout",
+          "number": "04",
+          "title": "Live 25 Aout",
+          "type": "text",
+          "hasVideo": false,
+          "contentFile": "/content/03_Rediffusions_Lives/04_Live_25_Aout.md",
+          "videoFile": null,
+          "textFile": null,
+          "dir": "03_Rediffusions_Lives"
+        },
+        {
+          "id": "05-live-1er-septembre",
+          "number": "05",
+          "title": "Live 1er Septembre",
+          "type": "text",
+          "hasVideo": false,
+          "contentFile": "/content/03_Rediffusions_Lives/05_Live_1er_Septembre.md",
+          "videoFile": null,
+          "textFile": null,
+          "dir": "03_Rediffusions_Lives"
+        },
+        {
+          "id": "06-live-8-septembre",
+          "number": "06",
+          "title": "Live 8 Septembre",
+          "type": "text",
+          "hasVideo": false,
+          "contentFile": "/content/03_Rediffusions_Lives/06_Live_8_Septembre.md",
+          "videoFile": null,
+          "textFile": null,
+          "dir": "03_Rediffusions_Lives"
+        },
+        {
+          "id": "07-live-16-septembre-funnel-tiktok-money-ecom",
+          "number": "07",
+          "title": "Live 16 Septembre (Funnel, TikTok Money, Ecom...)",
+          "type": "text",
+          "hasVideo": false,
+          "contentFile": "/content/03_Rediffusions_Lives/07_Live_16_Septembre_Funnel_TikTok_Money_Ecom.md",
+          "videoFile": null,
+          "textFile": null,
+          "dir": "03_Rediffusions_Lives"
+        },
+        {
+          "id": "08-live-22-septembre-nouveau-tunnel-affilies",
+          "number": "08",
+          "title": "Live 22 Septembre (Nouveau Tunnel Affiliés)",
+          "type": "text",
+          "hasVideo": false,
+          "contentFile": "/content/03_Rediffusions_Lives/08_Live_22_Septembre_Nouveau_Tunnel_Affiliés.md",
+          "videoFile": null,
+          "textFile": null,
+          "dir": "03_Rediffusions_Lives"
+        },
+        {
+          "id": "09-live-6-octobre",
+          "number": "09",
+          "title": "Live 6 octobre",
+          "type": "text",
+          "hasVideo": false,
+          "contentFile": "/content/03_Rediffusions_Lives/09_Live_6_octobre.md",
+          "videoFile": null,
+          "textFile": null,
+          "dir": "03_Rediffusions_Lives"
+        },
+        {
+          "id": "10-live-20-octobre",
+          "number": "10",
+          "title": "Live 20 Octobre",
+          "type": "text",
+          "hasVideo": false,
+          "contentFile": "/content/03_Rediffusions_Lives/10_Live_20_Octobre.md",
+          "videoFile": null,
+          "textFile": null,
+          "dir": "03_Rediffusions_Lives"
+        },
+        {
+          "id": "11-live-3-novembre",
+          "number": "11",
+          "title": "Live 3 Novembre",
+          "type": "text",
+          "hasVideo": false,
+          "contentFile": "/content/03_Rediffusions_Lives/11_Live_3_Novembre.md",
+          "videoFile": null,
+          "textFile": null,
+          "dir": "03_Rediffusions_Lives"
+        },
+        {
+          "id": "12-live-10-novembre",
+          "number": "12",
+          "title": "Live 10 Novembre",
+          "type": "text",
+          "hasVideo": false,
+          "contentFile": "/content/03_Rediffusions_Lives/12_Live_10_Novembre.md",
+          "videoFile": null,
+          "textFile": null,
+          "dir": "03_Rediffusions_Lives"
+        },
+        {
+          "id": "13-live-17-novembre",
+          "number": "13",
+          "title": "Live 17 Novembre",
+          "type": "text",
+          "hasVideo": false,
+          "contentFile": "/content/03_Rediffusions_Lives/13_Live_17_Novembre.md",
+          "videoFile": null,
+          "textFile": null,
+          "dir": "03_Rediffusions_Lives"
+        },
+        {
+          "id": "14-live-1er-decembre",
+          "number": "14",
+          "title": "Live 1er Décembre",
+          "type": "text",
+          "hasVideo": false,
+          "contentFile": "/content/03_Rediffusions_Lives/14_Live_1er_Décembre.md",
+          "videoFile": null,
+          "textFile": null,
+          "dir": "03_Rediffusions_Lives"
+        },
+        {
+          "id": "15-live-8-decembre",
+          "number": "15",
+          "title": "Live 8 Décembre",
+          "type": "text",
+          "hasVideo": false,
+          "contentFile": "/content/03_Rediffusions_Lives/15_Live_8_Décembre.md",
+          "videoFile": null,
+          "textFile": null,
+          "dir": "03_Rediffusions_Lives"
+        },
+        {
+          "id": "16-live-16-decembre",
+          "number": "16",
+          "title": "Live 16 Décembre",
+          "type": "text",
+          "hasVideo": false,
+          "contentFile": "/content/03_Rediffusions_Lives/16_Live_16_Décembre.md",
+          "videoFile": null,
+          "textFile": null,
+          "dir": "03_Rediffusions_Lives"
+        },
+        {
+          "id": "17-live-22-decembre-personal-brand-format",
+          "number": "17",
+          "title": "Live 22 décembre (Personal Brand, Format, €€)",
+          "type": "text",
+          "hasVideo": false,
+          "contentFile": "/content/03_Rediffusions_Lives/17_Live_22_décembre_Personal_Brand_Format.md",
+          "videoFile": null,
+          "textFile": null,
+          "dir": "03_Rediffusions_Lives"
+        }
+      ]
+    },
+    {
+      "id": "04_Instagram_Virality",
+      "number": "04",
+      "title": "Instagram Virality",
+      "description": "Les secrets de l'algorithme Instagram pour faire exploser ton nombre d'abonnés de manière organique.",
+      "level": 3,
+      "coverImage": "https://assets.skool.com/f/21b72d30b52a406ab271fe1f8f3a8dbd/4f853a5968be44ffb4d16354576919b2dd4ae0180f09434c968c85126044bdee-md.jpg",
+      "totalLessons": 3,
+      "lessons": [
+        {
+          "id": "choisir-sa-niche-en-moins-de-10-min",
+          "number": "01",
+          "title": "Choisir sa niche en moins de 10 min",
+          "type": "video",
+          "hasVideo": true,
+          "contentFile": null,
+          "videoFile": "https://docs.google.com/uc?export=download&id=1zVeEZobgAovnbwAeFUcqrrag85IWNcxX",
+          "textFile": null,
+          "dir": "04_Instagram_Virality"
+        },
+        {
+          "id": "le-concept-d-une-secret-page",
+          "number": "02",
+          "title": "Le concept d une Secret Page",
+          "type": "video",
+          "hasVideo": true,
+          "contentFile": null,
+          "videoFile": "https://docs.google.com/uc?export=download&id=1C9Ui6OtLvgHD_rmI9V6QkF32HoEhuYjN",
+          "textFile": null,
+          "dir": "04_Instagram_Virality"
+        },
+        {
+          "id": "nicheinsta",
+          "number": "03",
+          "title": "Nicheinsta",
+          "type": "video",
+          "hasVideo": true,
+          "contentFile": null,
+          "videoFile": "https://docs.google.com/uc?export=download&id=1ESqtnTwEUsVuSqz4wyVph1qJeaCldBmX",
+          "textFile": null,
+          "dir": "04_Instagram_Virality"
+        }
+      ]
+    }
+  ]
+}
