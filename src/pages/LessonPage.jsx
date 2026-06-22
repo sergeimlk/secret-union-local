@@ -45,6 +45,23 @@ function parseMarkdown(text) {
   return processedLines.join('\n');
 }
 
+function getGoogleDriveEmbedUrl(url) {
+  if (!url) return null;
+  if (!url.includes('google.com')) return null;
+  
+  let id = null;
+  const matchId = url.match(/[?&]id=([^&]+)/);
+  if (matchId) {
+    id = matchId[1];
+  } else {
+    const matchPath = url.match(/\/file\/d\/([^/]+)/);
+    if (matchPath) {
+      id = matchPath[1];
+    }
+  }
+  return id ? `https://drive.google.com/file/d/${id}/preview` : null;
+}
+
 export function LessonPage({ contentMap }) {
   const { id, lessonId } = useParams();
   const navigate = useNavigate();
@@ -191,7 +208,19 @@ export function LessonPage({ contentMap }) {
           {/* Video Player or Placeholder */}
           {currentLesson.hasVideo && currentLesson.videoFile ? (
             <div className="relative">
-              <VideoPlayer src={currentLesson.videoFile} onVideoEnd={handleVideoEnd} />
+              {getGoogleDriveEmbedUrl(currentLesson.videoFile) ? (
+                <div className="relative aspect-video w-full overflow-hidden rounded-2xl border border-border-subtle bg-black shadow-xl">
+                  <iframe
+                    src={getGoogleDriveEmbedUrl(currentLesson.videoFile)}
+                    className="h-full w-full object-contain"
+                    frameBorder="0"
+                    allow="autoplay; fullscreen"
+                    allowFullScreen
+                  />
+                </div>
+              ) : (
+                <VideoPlayer src={currentLesson.videoFile} onVideoEnd={handleVideoEnd} />
+              )}
               
               {/* Autoplay Next Banner Overlay */}
               {autoplayNext && (
