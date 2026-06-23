@@ -6,7 +6,7 @@
       "title": "INTRO (OBLIGATOIRE)",
       "description": "Découvre ton Plan d'action et comment utiliser la communauté.",
       "level": 1,
-      "coverImage": "https://assets.skool.com/f/21b72d30b52a406ab271fe1f8f3a8dbd/a5ebb16cd9244411bef5c6146bc3bcf38ffb20ece4594c79ab76414b121105f3",
+      "coverImage": "/content/covers/01.jpg",
       "totalLessons": 5,
       "lessons": [
         {
@@ -72,7 +72,7 @@
       "title": "AI Secret System™",
       "description": "Tous les outils et les méthodes pour automatiser la création de vidéos virales grâce à l'IA.",
       "level": 2,
-      "coverImage": "https://assets.skool.com/f/21b72d30b52a406ab271fe1f8f3a8dbd/4f853a5968be44ffb4d16354576919b2dd4ae0180f09434c968c85126044bdee-md.jpg",
+      "coverImage": "/content/covers/02.jpg",
       "totalLessons": 10,
       "lessons": [
         {
@@ -193,7 +193,7 @@
       "title": "Rediffusions Lives",
       "description": "Toutes les rediffusions des coachings et lives hebdomadaires pour suivre les analyses de comptes.",
       "level": null,
-      "coverImage": "https://assets.skool.com/f/21b72d30b52a406ab271fe1f8f3a8dbd/a5ebb16cd9244411bef5c6146bc3bcf38ffb20ece4594c79ab76414b121105f3",
+      "coverImage": "/content/covers/01.jpg",
       "totalLessons": 17,
       "lessons": [
         {
@@ -391,7 +391,7 @@
       "title": "Instagram Virality",
       "description": "Les secrets de l'algorithme Instagram pour faire exploser ton nombre d'abonnés de manière organique.",
       "level": 3,
-      "coverImage": "https://assets.skool.com/f/21b72d30b52a406ab271fe1f8f3a8dbd/4f853a5968be44ffb4d16354576919b2dd4ae0180f09434c968c85126044bdee-md.jpg",
+      "coverImage": "/content/covers/02.jpg",
       "totalLessons": 3,
       "lessons": [
         {
