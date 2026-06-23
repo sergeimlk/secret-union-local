@@ -24,7 +24,19 @@ function parseMarkdown(text) {
   html = html.replace(/\*\*(.*?)\*\*/g, '<strong class="text-gold-400 font-semibold">$1</strong>');
 
   // Links
-  html = html.replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-gold-400 hover:text-gold-300 underline font-medium transition-colors">$1</a>');
+  html = html.replace(/\[(.*?)\]\((.*?)\)/g, (match, text, url) => {
+    let displayText = text;
+    if (text.startsWith('http://') || text.startsWith('https://')) {
+      try {
+        const parsed = new URL(text);
+        const pathTruncated = parsed.pathname.length > 15 ? parsed.pathname.substring(0, 15) + '...' : parsed.pathname;
+        displayText = parsed.hostname + pathTruncated;
+      } catch (e) {
+        displayText = text.length > 30 ? text.substring(0, 30) + '...' : text;
+      }
+    }
+    return `<a href="${url}" target="_blank" rel="noopener noreferrer" class="text-gold-400 hover:text-gold-300 underline font-medium transition-colors break-all">${displayText}</a>`;
+  });
 
   // Bullet points
   // First group lists
